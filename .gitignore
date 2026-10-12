@@ -1,0 +1,13 @@
+# Any real credential file. Only *.example is tracked.
+*.env
+!*.env.example
+atlassian.env
+.env
+.env.*
+
+# Agent-local trust files, never shareable
+.claude/settings.local.json
+.codex/config.local.toml
+
+# OS noise
+.DS_Store

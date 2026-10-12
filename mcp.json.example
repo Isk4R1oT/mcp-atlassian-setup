@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "jira": {
+      "command": "uvx",
+      "args": [
+        "mcp-atlassian",
+        "--env-file",
+        "/Users/you/.config/atlassian-mcp/atlassian.env"
+      ],
+      "env": {
+        "TOOLSETS": "default,jira_agile,jira_links,jira_worklog",
+        "READ_ONLY_MODE": "false"
+      }
+    }
+  }
+}
